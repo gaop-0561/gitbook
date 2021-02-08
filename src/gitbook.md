@@ -55,4 +55,13 @@
 
     6. 把本地的文档推送到github上；
 
-    7. 在github的仓库中选择；
+       ```sh
+       git add .
+       git commit
+       git push -u origin master
+       ```
+
+    7. 在github的仓库中选择`Settings`页面，找到`Github Pages`，在Source中选择master分支和docs目录，点击Save后就开始部署了，部署完成后可以通过上方的链接进行访问；
+
+       ![image-20210208143412997](https://img-1259707131.cos.ap-shanghai.myqcloud.com/20210208143413.png)
+
